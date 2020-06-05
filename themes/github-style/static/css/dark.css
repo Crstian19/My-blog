@@ -1,17 +1,39 @@
 /* powered by DARK READER */
 
+/* Rainbows */
+@keyframes rainbow {
+  0% {color: hsla(0, 70%, 50%, 1);}
+  10% {color: hsla(30, 70%, 50%, 1);}
+  20% {color: hsla(60, 70%, 50%, 1);}
+  30% {color: hsla(90, 70%, 50%, 1);}
+  40% {color: hsla(120, 70%, 50%, 1);}
+  50% {color: hsla(150, 70%, 50%, 1);}
+  60% {color: hsla(180, 70%, 50%, 1);}
+  70% {color: hsla(210, 70%, 50%, 1);}
+  80% {color: hsla(240, 70%, 50%, 1);}
+  90% {color: hsla(270, 70%, 50%, 1);}
+  100% {color: hsla(0, 70%, 50%, 1);}
+
+}
+
 body {
   color: rgb(216, 214, 208);
   background-color: rgb(24, 26, 27);
 }
-
+.avatar-group-item {
+  color: rgb(216, 214, 208);
+}
 a {
-  color: rgb(77, 172, 253);
+  color: rgb(255,77,228)
+}
+
+a:hover {
+  animation: rainbow 1s linear infinite;
 }
 
 .UnderlineNav-item.selected {
   color: rgb(216, 214, 208) !important;
-  border-bottom-color: rgb(196, 85, 8) !important;
+  border-bottom-color: rgb(255, 77, 228) !important;
 }
 
 .UnderlineNav-item {
@@ -107,7 +129,7 @@ a {
 }
 
 .btn-outline {
-  color: rgb(77, 172, 253);
+  color: rgb(156, 0, 178);
   background-color: rgb(24, 26, 27);
   background-image: none;
 }
@@ -117,12 +139,12 @@ a {
 .btn-outline:hover,
 [open] > .btn-outline {
   color: rgb(255, 255, 255);
-  background-color: rgb(3, 95, 199);
+  background-color: rgb(156, 0, 178);
   background-image: none;
-  border-top-color: rgb(3, 99, 207);
-  border-right-color: rgb(3, 99, 207);
-  border-bottom-color: rgb(3, 99, 207);
-  border-left-color: rgb(3, 99, 207);
+  border-top-color: rgb(156, 0, 178);
+  border-right-color: rgb(156, 0, 178);
+  border-bottom-color: rgb(156, 0, 178);
+  border-left-color: rgb(156, 0, 178);
 }
 
 .btn-outline.disabled,
@@ -272,29 +294,29 @@ a {
 .day[fill='#c6e48b'],
 .legend li[style*='background-color: rgb(198, 228, 139)'],
 .legend li[style*='background-color: #c6e48b'] {
-  fill: #2c3a31 !important;
-  background-color: #2c3a31 !important;
+  fill: #bc89b5 !important;
+  background-color: #bc89b5 !important;
 }
 
 .day[fill='#7bc96f'],
 .legend li[style*='background-color: rgb(123, 201, 111)'],
 .legend li[style*='background-color: #7bc96f'] {
-  fill: #58965c !important;
-  background-color: #58965c !important;
+  fill: #da37c2 !important;
+  background-color: #da37c2 !important;
 }
 
 .day[fill='#239a3b'],
 .legend li[style*='background-color: rgb(35, 154, 59)'],
 .legend li[style*='background-color: #239a3b'] {
-  fill: #87ee9f !important;
-  background-color: #87ee9f !important;
+  fill: #ff42e3 !important;
+  background-color: #ff42e3 !important;
 }
 
 .day[fill='#196127'],
 .legend li[style*='background-color: rgb(25, 97, 39)'],
 .legend li[style*='background-color: #196127'] {
-  fill: #adf5bb !important;
-  background-color: #adf5bb !important;
+  fill: #ffa9f2 !important;
+  background-color: #ffa9f2 !important;
 }
 
 .bg-white {
@@ -308,7 +330,7 @@ a {
 
 .filter-item.selected {
   color: rgb(255, 255, 255);
-  background-color: rgb(3, 95, 199);
+  background-color: rgb(156, 0, 178);
 }
 
 .filter-item:hover {
@@ -325,8 +347,7 @@ a {
 }
 
 .muted-link:hover {
-  text-decoration-color: initial;
-  color: rgb(77, 172, 253) !important;
+  animation: rainbow 1s linear infinite;
 }
 
 .discussion-timeline::before {
@@ -354,9 +375,19 @@ a {
   fill: currentcolor;
 }
 
+.octicon:hover {
+  animation: rainbow 1s linear infinite;
+
+}
+
 /* custom */
 
 .github-octicon {
   fill: currentColor;
   color: #fff;
 }
+
+.github-octicon:hover {
+  animation: rainbow 1s linear infinite;
+}
+
