@@ -1,12 +1,11 @@
 ---
 title: "About"
 date: 2020-05-27T00:19:14+02:00
-draft: true
 layout: "about"
 ---
 # $whoami
 
-I am Cristian Gutierrez, a 23 year old spanish telematics engineering student.
+I am Cristian, a 23 year old spanish telematics engineering student.
 
 I dualboot ArchLinux alongside Windows 10 (only for games xd). I like to be in constant learning and I am currently working on very different topics such as Frontend, Backend, DevOps, Sysadmin...
 
