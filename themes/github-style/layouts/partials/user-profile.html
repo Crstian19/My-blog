@@ -39,8 +39,7 @@
 
                         {{ if .Site.Params.email }}
                         <li itemprop="email" aria-label="Email: {{ .Site.Params.Email }}"
-                            class="vcard-detail pt-1 css-truncate css-truncate-target"><svg class="octicon octicon-mail"
-                                viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                            class="vcard-detail pt-1 css-truncate css-truncate-target"><span class="iconify" data-icon="carbon:email" data-inline="false" data-width="16" data-height="16"></span>
                                 <path fill-rule="evenodd"
                                     d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z" />
                             </svg>
@@ -49,11 +48,7 @@
                         {{ end }}
 
                         <li itemprop="url" data-test-selector="profile-website-url"
-                            class="vcard-detail pt-1 css-truncate css-truncate-target"><svg class="octicon octicon-link"
-                                viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                    d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-                                </path>
+                            class="vcard-detail pt-1 css-truncate css-truncate-target"><span class="iconify" data-icon="bi:link-45deg" data-inline="false" data-width="16" data-height="16"></span>
                             </svg>
                             {{ if .Site.Params.url }}
                             <a rel="nofollow me" href="{{ .Site.Params.url }}">{{ .Site.Params.url }}</a>
@@ -61,40 +56,76 @@
                             <a rel="nofollow me" href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
                             {{ end }}
                         </li>
+
+                        <li itemprop="url" data-test-selector="profile-website-urlb"
+                        class="vcard-detail pt-1 css-truncate css-truncate-target"><span class="iconify" data-icon="logos:gopher" data-inline="false" data-width="16" data-height="16"></span>
+                            <path fill-rule="evenodd"
+                                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+                            </path>
+                        </svg>
+                        {{ if .Site.Params.urlb }}
+                        <a rel="nofollow me" href="{{ .Site.Params.urlb }}">{{ .Site.Params.urlb }}</a>
+                        {{ else }}
+                        <a rel="nofollow me" href="{{ .Site.BaseURLb }}">{{ .Site.BaseURLb }}</a>
+                        {{ end }}
+                    </li>
+
+                    <li itemprop="url" data-test-selector="profile-website-urlc"
+                        class="vcard-detail pt-1 css-truncate css-truncate-target"><span class="iconify" data-icon="mdi:nix" data-inline="false" data-width="16" data-height="16"></span>
+                            <path fill-rule="evenodd"
+                                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+                            </path>
+                        </svg>
+                        {{ if .Site.Params.urlb }}
+                        <a rel="nofollow me" href="{{ .Site.Params.urlc }}">{{ .Site.Params.urlc }}</a>
+                        {{ else }}
+                        <a rel="nofollow me" href="{{ .Site.BaseURLc }}">{{ .Site.BaseURLc }}</a>
+                        {{ end }}
+                    </li>
+
+                    <li itemprop="url" data-test-selector="profile-website-urlshell"
+                    class="vcard-detail pt-1 css-truncate css-truncate-target"><span class="iconify" data-icon="bx:bx-terminal" data-inline="false" data-width="16" data-height="16"></span>
+                        <path fill-rule="evenodd"
+                            d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+                        </path>
+                    </svg>
+                    {{ if .Site.Params.urlshell }}
+                    <a rel="nofollow me" href="{{ .Site.Params.urlshell }}">{{ .Site.Params.urlshell }}</a>
+                    {{ else }}
+                    <a rel="nofollow me" href="{{ .Site.BaseURLshell }}">{{ .Site.BaseURLshell }}</a>
+                    {{ end }}
+                </li>
+
+
+                    
                     </ul>
                 </div>
             </div>
 
             <div class="border-top py-3 clearfix hide-sm hide-md">
-                <h2 class="mb-1 h4">Organizations</h2>
+                <h2 class="mb-1 h4">Follow me on</h2>
 
                 {{ if .Site.Params.github}}
                 <a class="avatar-group-item" data-hovercard-type="organization"
                     href="https://github.com/{{ .Site.Params.github }}">
-                    <svg width="35" height="35" class="avatar github-octicon" viewBox="0 0 16 16" version="1.1"
-                        aria-hidden="true">
-                        <path fill-rule="evenodd"
-                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                        </path>
-                    </svg>
+                    <span class="iconify" data-icon="ant-design:github-filled" data-inline="false"  data-width="35" data-height="35"></span>
                 </a>
                 {{ end }}
-                {{ if .Site.Params.misskey}}
+                {{ if .Site.Params.gitlab}}
                 <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="{{ .Site.Params.misskey }}">
-                    <img src="{{ "images/misskey.png" | absURL }}" class="avatar" width="35" height="35">
-                </a>
+                    href="{{ .Site.Params.gitlab }}">
+                    <span class="iconify" data-icon="mdi:gitlab" data-inline="false" data-width="35" data-height="35"></span>                </a>
                 {{ end }}
                 {{ if .Site.Params.mastodon}}
                 <a class="avatar-group-item" data-hovercard-type="organization"
                     href="{{ .Site.Params.mastodon }}">
-                    <img src="{{ "images/mastodon.png" | absURL }}" class="avatar" width="35" height="35">
+                    <span class="iconify" data-icon="cib:arch-linux" data-inline="false" data-width="35" data-height="35"></span>
                 </a>
                 {{ end }}
-                {{ if .Site.Params.facebook}}
+                {{ if .Site.Params.linkedin}}
                 <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="https://facebook.com/{{ .Site.Params.facebook }}">
-                    <img src="{{ "images/facebook.png" | absURL }}" class="avatar" width="35" height="35">
+                    href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}">
+                    <span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false" data-width="35" data-height="35"></span>
                 </a>
                 {{ end }}
                 {{ if .Site.Params.Twitter}}
@@ -105,8 +136,7 @@
                 {{ end }}
                 <a class="avatar-group-item" data-hovercard-type="organization"
                                              href="{{ "posts/index.xml" | absURL }}">
-                    <img src="{{ "images/rss.png" | absURL }}" class="avatar" width="38" height="38">
-                </a>
+                                             <span class="iconify" data-icon="bx:bx-rss" data-inline="false" data-width="35" data-height="35"></span>                </a>
             </div>
 
             <div data-test-selector="profile-sponsorships">
