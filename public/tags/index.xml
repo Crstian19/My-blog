@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Crstian&#39;s blog</title>
-    <link>https://crstian19.github.io/tags/</link>
+    <link>https://blog.crstian.me/tags/</link>
     <description>Recent content in Tags on Crstian&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Crstian.me © 2019. Powered by  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
+    <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
     
-	<atom:link href="https://crstian19.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.crstian.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

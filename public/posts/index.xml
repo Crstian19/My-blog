@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Crstian&#39;s blog</title>
-    <link>https://crstian19.github.io/posts/</link>
+    <link>https://blog.crstian.me/posts/</link>
     <description>Recent content in Posts on Crstian&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Crstian.me © 2019. Powered by  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
+    <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 03 May 2020 00:19:14 +0200</lastBuildDate>
     
-	<atom:link href="https://crstian19.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.crstian.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone</title>
-      <link>https://crstian19.github.io/posts/2020-05-03-cambiar-router-pepephone/</link>
+      <link>https://blog.crstian.me/posts/2020-05-03-cambiar-router-pepephone/</link>
       <pubDate>Sun, 03 May 2020 00:19:14 +0200</pubDate>
       
-      <guid>https://crstian19.github.io/posts/2020-05-03-cambiar-router-pepephone/</guid>
+      <guid>https://blog.crstian.me/posts/2020-05-03-cambiar-router-pepephone/</guid>
       <description>Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi Linksys 1900ACS.
 En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT</description>
@@ -24,10 +24,10 @@ En primer lugar para poder realizar un requisito indispensable, que hay que tene
     
     <item>
       <title>Instalar Pixel Experience ROM en Xiaomi Mi 9T / Redmi K20</title>
-      <link>https://crstian19.github.io/posts/2020-04-24-instalar-pixel-experience-mi9t/</link>
+      <link>https://blog.crstian.me/posts/2020-04-24-instalar-pixel-experience-mi9t/</link>
       <pubDate>Fri, 24 Apr 2020 00:19:14 +0200</pubDate>
       
-      <guid>https://crstian19.github.io/posts/2020-04-24-instalar-pixel-experience-mi9t/</guid>
+      <guid>https://blog.crstian.me/posts/2020-04-24-instalar-pixel-experience-mi9t/</guid>
       <description>Como instalar la ROM Pixel Experience en el Xiaomi Mi9T desde Linux.
 Desbloquear bootloader En primero lugar para flashear esta o cualquier ROM necesitamos tener el bootloader de nuestro terminal desbloqueado. Para ello necesitamos miunlock (Para poder ejecutar mi unlock debemos hacerlo desde windows)
 Además de esto debemos tener nuestro MI9T actualizado a la última versión de MIUI. Nos vamos a información sobre el teléfono y tenemos que presionar sobre MIUI version varias veces ya que necesitamos activar las opciones de desarollador.</description>
@@ -35,20 +35,20 @@ Además de esto debemos tener nuestro MI9T actualizado a la última versión de 
     
     <item>
       <title>Routing seguro para tus aplicaciones en containers usando Traefik v2 con Let&#39;s Encrypt</title>
-      <link>https://crstian19.github.io/posts/2020-04-19-routing-seguro-para-sus-aplicaciones-en-containers-usando-traefik-v2-y-lets-encrypt/</link>
+      <link>https://blog.crstian.me/posts/2020-04-19-routing-seguro-para-sus-aplicaciones-en-containers-usando-traefik-v2-y-lets-encrypt/</link>
       <pubDate>Sun, 19 Apr 2020 00:19:14 +0200</pubDate>
       
-      <guid>https://crstian19.github.io/posts/2020-04-19-routing-seguro-para-sus-aplicaciones-en-containers-usando-traefik-v2-y-lets-encrypt/</guid>
+      <guid>https://blog.crstian.me/posts/2020-04-19-routing-seguro-para-sus-aplicaciones-en-containers-usando-traefik-v2-y-lets-encrypt/</guid>
       <description>Configurar traefik v2 para routing seguro como proxy reverso con HTTPS
 Introducción Una configuración robusta de proxy inverso es crítica para cualquier configuración selfhosted que tenga elementos expuestos a través de internet. Si bien los servicios de proxy inverso se utilizan a menudo por razones de equilibrio de carga y seguridad, la mayoría de los propietarios de servidores domésticos los utilizan para enrutar las solicitudes dirigidas a diferentes dominios o subdominios a diferentes hosts o servicios internos.</description>
     </item>
     
     <item>
       <title>Logitech G502 Linux</title>
-      <link>https://crstian19.github.io/posts/2019-07-28-logitech-g502-linux/</link>
+      <link>https://blog.crstian.me/posts/2019-07-28-logitech-g502-linux/</link>
       <pubDate>Sun, 28 Jul 2019 00:19:14 +0200</pubDate>
       
-      <guid>https://crstian19.github.io/posts/2019-07-28-logitech-g502-linux/</guid>
+      <guid>https://blog.crstian.me/posts/2019-07-28-logitech-g502-linux/</guid>
       <description>Como configurar y usar Logitech G502 en Arch Linux - How to configure and use Logitech G502 on Arch Linux
 Configurar y usar Logitech G502 en linux Después de pasarme a Arch Linux desde Windows y teniendo un Logitech G502 tenía la necesidad de configurar tanto dpi como los botones configurables, incluso apagar los leds por la noche.
 Gracias a un amigo que me enseñó piper programa hecho en Python el cual nos permite configurar nuestro G502 y más modelos aquí la lista</description>
@@ -56,10 +56,10 @@ Gracias a un amigo que me enseñó piper programa hecho en Python el cual nos pe
     
     <item>
       <title>Minar Ethereum desde Linux y Windows en nanopool</title>
-      <link>https://crstian19.github.io/posts/2019-07-19-minar-eth-nanopool/</link>
+      <link>https://blog.crstian.me/posts/2019-07-19-minar-eth-nanopool/</link>
       <pubDate>Fri, 19 Jul 2019 00:19:14 +0200</pubDate>
       
-      <guid>https://crstian19.github.io/posts/2019-07-19-minar-eth-nanopool/</guid>
+      <guid>https://blog.crstian.me/posts/2019-07-19-minar-eth-nanopool/</guid>
       <description>En es post vamos a ver como minar Ethereum con nanopool.org en linux y en windows.
 Nanominer El miner que vamos a usar va a ser nanominer ya que está mantenido por nanopool y es el que recomiendan.
 En primer lugar nos descargamos nanominer desde su github
@@ -69,10 +69,10 @@ Primero vamos a abrir config.ini con un editor de texto como gedit o nano y lo e
     
     <item>
       <title>Github para noobies como yo 🤔</title>
-      <link>https://crstian19.github.io/posts/2019-07-17-tutorial-git/</link>
+      <link>https://blog.crstian.me/posts/2019-07-17-tutorial-git/</link>
       <pubDate>Wed, 17 Jul 2019 00:19:14 +0200</pubDate>
       
-      <guid>https://crstian19.github.io/posts/2019-07-17-tutorial-git/</guid>
+      <guid>https://blog.crstian.me/posts/2019-07-17-tutorial-git/</guid>
       <description>En este post vamos a ver como crear nuestro primer repositorio y tener nuestro código ordenado en Github. Vamos a aprender lo básico y los comandos necesarios para ello, por eso lo he titulado github para noobies o dummies como yo.
 Introducción Git es el sistema de control de versiones más popular y con razón. En este post, repasaremos los conceptos básicos de qué es git y cómo usarlo dentro de la línea de comandos.</description>
     </item>

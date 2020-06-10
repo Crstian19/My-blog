@@ -1,8 +1,8 @@
-baseURL = "https://crstian19.github.io/"
+baseURL = "https://blog.crstian.me"
 title = "Crstian's blog"
 googleAnalytics = "UA-138916983-1"
 theme = "github-style"
-copyright = "Crstian.me © 2019. Powered by  <a href=\"https://gohugo.io/\">HUGO</a>"
+copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
 
 [params]
   author = "Cristian Gutierrez"
