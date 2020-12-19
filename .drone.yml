@@ -1,0 +1,16 @@
+ind: pipeline
+type: exec
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: build
+  commands:
+    - docker build -t bloglord .
+
+- name: run
+  commands:
+    - docker-compose up -d
