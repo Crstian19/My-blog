@@ -7,7 +7,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.http.routers.bloglord.entryPoints=web-secure
-      - traefik.http.routers.bloglord.rule=Host(`bloglord.crstian.me`)
+      - traefik.http.routers.bloglord.rule=Host(`blog.crstian.me`)
       - traefik.http.routers.bloglord.tls.certresolver=default
 
 networks:
