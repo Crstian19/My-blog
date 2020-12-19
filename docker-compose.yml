@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  bloglord:
+    image: bloglord
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.bloglord.entryPoints=web-secure
+      - traefik.http.routers.bloglord.rule=Host(`bloglord.crstian.me`)
+      - traefik.http.routers.bloglord.tls.certresolver=default
+
+networks:
+  default:
+    name: bloglord-network
+
+
+
+
+
+
+
+
+
