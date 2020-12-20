@@ -1,10 +1,20 @@
 version: '3.7'
+
 services:
-  nginx:
-    image: nginx:alpine
-    container_name: Blog
-    ports: 
-     - 80:80
-    restart: always
-    volumes:
-      - /home/crstian/Downloads/My-personal-blog/public:/usr/share/nginx/html
+  bloglord:
+    image: bloglord
+    container_name: blog
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.bloglord.entryPoints=web-secure
+      - traefik.http.routers.bloglord.rule=Host(`blog.crstian.me`)
+      - traefik.http.routers.bloglord.tls.certresolver=default
+
+networks:
+  default:
+    name: bloglord-network
+
+
+
+
