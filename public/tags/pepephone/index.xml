@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pepephone on Crstian&#39;s blog</title>
+    <link>https://blog.crstian.me/tags/pepephone/</link>
+    <description>Recent content in Pepephone on Crstian&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 03 May 2020 00:19:14 +0200</lastBuildDate><atom:link href="https://blog.crstian.me/tags/pepephone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone</title>
+      <link>https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/</link>
+      <pubDate>Sun, 03 May 2020 00:19:14 +0200</pubDate>
+      
+      <guid>https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/</guid>
+      <description>Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
+Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi Linksys 1900ACS.
+En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT</description>
+    </item>
+    
+  </channel>
+</rss>

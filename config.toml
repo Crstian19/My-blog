@@ -6,17 +6,24 @@ copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
 
 [params]
   author = "Cristian Gutierrez"
+  location = "Spain"
   # description = "example"
   github = "Crstian19"
   linkedin = "cristian-gutierrez-lopez/"
   # twitter = "example"
-  gitlab = "user profile url"
+  gitlab = "Crstian"
   # mastodon = "user profile url"
   email = "cristian@crstian.me"
   utterances = "example/example.github.io"
-  avatar = "https://raw.githubusercontent.com/parnurzeal/gorequest/gh-pages/images/Gopher_GoRequest.jpg"
+  avatar = "https://server.crstian.me/assets//tools/gopher-astronaut.webp"
   url = "https://crstian.me"
   urlb = "https://blog.crstian.me"
   urlc = "https://server.crstian.me"
   urlshell ="https://shell.crstian.me"
+  urldonate = "https://paypal.me/CrstianG"
   keywords = "blog, google analytics, crstian, traefik, pixel, experience, español"
+
+  lastmod = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

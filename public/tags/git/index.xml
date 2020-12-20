@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Crstian&#39;s blog</title>
+    <link>https://blog.crstian.me/tags/git/</link>
+    <description>Recent content in Git on Crstian&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 17 Jul 2019 00:19:14 +0200</lastBuildDate><atom:link href="https://blog.crstian.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github para noobies como yo 🤔</title>
+      <link>https://blog.crstian.me/post/2019-07-17-tutorial-git/</link>
+      <pubDate>Wed, 17 Jul 2019 00:19:14 +0200</pubDate>
+      
+      <guid>https://blog.crstian.me/post/2019-07-17-tutorial-git/</guid>
+      <description>En este post vamos a ver como crear nuestro primer repositorio y tener nuestro código ordenado en Github. Vamos a aprender lo básico y los comandos necesarios para ello, por eso lo he titulado github para noobies o dummies como yo.
+Introducción Git es el sistema de control de versiones más popular y con razón. En este post, repasaremos los conceptos básicos de qué es git y cómo usarlo dentro de la línea de comandos.</description>
+    </item>
+    
+  </channel>
+</rss>

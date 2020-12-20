@@ -5,10 +5,6 @@
     <link>https://blog.crstian.me/categories/</link>
     <description>Recent content in Categories on Crstian&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
-    
-	<atom:link href="https://blog.crstian.me/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright><atom:link href="https://blog.crstian.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
