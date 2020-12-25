@@ -27,5 +27,5 @@ copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-[permalinks]
-  disqusShortname = "blog-crstian-me"
+
+  disqusShortname = "blog"
