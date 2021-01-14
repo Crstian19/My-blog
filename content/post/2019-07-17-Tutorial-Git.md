@@ -1,5 +1,5 @@
 ---
-title: "Github para noobies como yo \U0001F914"
+title: "Github para noobies/principiantes \U0001F914"
 date: 2019-07-17T00:19:14+02:00
 draft: false
 tags: [Git,Github]
@@ -110,6 +110,20 @@ La primera vez que hagamos push en los archivos a un directorio remoto, tenemos 
 A partir del segundo push ya solo tendremos que ejecutar lo siguiente:
   
  > git push
+
+Algunos comandos que también nos pueden ser útiles:
+
+Listar todas las branches
+
+> git branch
+
+Cambiar entre diferentes branches
+
+> git checkout -b <branch name>
+
+Revertir los cambios del último commit
+
+> git revert<commit-id>
 
   
 ### ¡Eso es todo!
