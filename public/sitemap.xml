@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://blog.crstian.me/</loc>
-    <lastmod>2021-01-15T00:03:25+01:00</lastmod>
+    <lastmod>2021-01-15T02:06:26+01:00</lastmod>
   </url>
   
   <url>
@@ -34,12 +34,12 @@
   
   <url>
     <loc>https://blog.crstian.me/post/</loc>
-    <lastmod>2021-01-15T00:03:25+01:00</lastmod>
+    <lastmod>2021-01-15T02:06:26+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.crstian.me/tags/</loc>
-    <lastmod>2021-01-15T00:03:25+01:00</lastmod>
+    <lastmod>2021-01-15T02:06:26+01:00</lastmod>
   </url>
   
   <url>
@@ -114,17 +114,22 @@
   
   <url>
     <loc>https://blog.crstian.me/tags/git/</loc>
-    <lastmod>2021-01-15T00:03:25+01:00</lastmod>
+    <lastmod>2021-01-15T02:06:26+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.crstian.me/tags/github/</loc>
-    <lastmod>2021-01-15T00:03:25+01:00</lastmod>
+    <lastmod>2021-01-15T02:06:26+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.crstian.me/post/2019-07-17-tutorial-git/</loc>
     <lastmod>2021-01-15T00:03:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.crstian.me/post/2021-01-15-drone-ci/</loc>
+    <lastmod>2021-01-15T02:06:26+01:00</lastmod>
   </url>
   
   <url>
