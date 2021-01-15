@@ -1,4 +1,5 @@
 # My-personal-blog
+[![Build Status](https://drone.crstian.me/api/badges/Crstian19/My-personal-blog/status.svg?ref=refs/heads/Main)](https://drone.crstian.me/Crstian19/My-personal-blog)
 
 https://blog.crstian.me/
 
