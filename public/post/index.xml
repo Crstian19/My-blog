@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Crstian&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 03 May 2020 00:19:14 +0200</lastBuildDate><atom:link href="https://blog.crstian.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:19:14 +0200</lastBuildDate><atom:link href="https://blog.crstian.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usar Drone CI/CD con Traefik en NixOS</title>
+      <link>https://blog.crstian.me/post/2021-01-15-drone-ci/</link>
+      <pubDate>Fri, 15 Jan 2021 00:19:14 +0200</pubDate>
+      
+      <guid>https://blog.crstian.me/post/2021-01-15-drone-ci/</guid>
+      <description>En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
+En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
+Para crear nuestro RPC secret lo haremos de la siguiente forma:
+ $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6</description>
+    </item>
+    
     <item>
       <title>Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone</title>
       <link>https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/</link>
@@ -71,18 +83,6 @@ Primero vamos a abrir config.ini con un editor de texto como gedit o nano y lo e
       <guid>https://blog.crstian.me/post/2019-07-17-tutorial-git/</guid>
       <description>En este post vamos a ver como crear nuestro primer repositorio y tener nuestro código ordenado en Github. Vamos a aprender lo básico y los comandos necesarios para ello, por eso lo he titulado github para noobies o dummies como yo.
 Introducción Git es el sistema de control de versiones más popular y con razón. En este post, repasaremos los conceptos básicos de qué es git y cómo usarlo dentro de la línea de comandos.</description>
-    </item>
-    
-    <item>
-      <title>Usar Drone CI/CD con Traefik en NixOS</title>
-      <link>https://blog.crstian.me/post/2021-01-15-drone-ci/</link>
-      <pubDate>Wed, 17 Jul 2019 00:19:14 +0200</pubDate>
-      
-      <guid>https://blog.crstian.me/post/2021-01-15-drone-ci/</guid>
-      <description>En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
-En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
-Para crear nuestro RPC secret lo haremos de la siguiente forma:
- $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6</description>
     </item>
     
   </channel>
