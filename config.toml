@@ -1,8 +1,18 @@
 baseURL = "https://blog.crstian.me"
-title = "Crstian's blog"
+# title = "Crstian's blog"
 googleAnalytics = "UA-138916983-1"
 theme = "github-style"
 copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
+defaultContentLanguage = "es"
+
+  [languages]
+  [languages.es]
+    title = "My blog"
+    weight = 1
+  [languages.en]
+    title = "Crstian's blog"
+    languageName = "English"
+    weight = 2
 
 [params]
   author = "Cristian Gutierrez"
@@ -30,8 +40,3 @@ copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
 
   disqusShortname = "blog"
 
-  [languages]
-  [languages.en]
-    title = "Crstian's blog"
-    languageName = "English"
-    weight = 1
