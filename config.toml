@@ -3,16 +3,16 @@ baseURL = "https://blog.crstian.me"
 googleAnalytics = "UA-138916983-1"
 theme = "github-style"
 copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
-defaultContentLanguage = "es"
+DefaultContentLanguage = "en"
 
   [languages]
   [languages.es]
     title = "My blog"
-    weight = 1
+    weight = 0
   [languages.en]
     title = "Crstian's blog"
     languageName = "English"
-    weight = 2
+    weight = 1
 
 [params]
   author = "Cristian Gutierrez"
@@ -37,6 +37,5 @@ defaultContentLanguage = "es"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-
   disqusShortname = "blog"
 
