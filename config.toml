@@ -29,3 +29,9 @@ copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
   disqusShortname = "blog"
+
+  [languages]
+  [languages.en]
+    title = "Crstian's blog"
+    languageName = "English"
+    weight = 1
