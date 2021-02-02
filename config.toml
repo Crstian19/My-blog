@@ -3,16 +3,15 @@ baseURL = "https://blog.crstian.me"
 googleAnalytics = "UA-138916983-1"
 theme = "github-style"
 copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "es"
 
-  [languages]
-  [languages.es]
-    title = "My blog"
-    weight = 0
-  [languages.en]
-    title = "Crstian's blog"
-    languageName = "English"
-    weight = 1
+[languages.es]
+weight = 0
+languageName = "Spanish"
+
+[languages.en]
+weight = 10
+languageName = "English"
 
 [params]
   author = "Cristian Gutierrez"

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.crstian.me/en/readme/</loc>
+    <lastmod>2021-02-03T00:24:38+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blog.crstian.me/readme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.crstian.me/en/readme/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.crstian.me/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blog.crstian.me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.crstian.me/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.crstian.me/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blog.crstian.me/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.crstian.me/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.crstian.me/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blog.crstian.me/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.crstian.me/en/tags/"
+                />
+  </url>
+  
+</urlset>
