@@ -3,7 +3,6 @@ title: "title"
 date: 2019-10-22T18:46:47+08:00
 draft: false
 ---
-EN INGLES
 # $whoami
 
 I am Cristian, a 23 year old spanish telematics engineering student.
