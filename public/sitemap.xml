@@ -2,14 +2,16 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://blog.crstian.me/es/sitemap.xml</loc>
+    <loc>https://blog.crstian.me/en/sitemap.xml</loc>
     
-      <lastmod>2021-01-17T20:04:29+01:00</lastmod>
+      <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://blog.crstian.me/en/sitemap.xml</loc>
+    <loc>https://blog.crstian.me/es/sitemap.xml</loc>
+    
+      <lastmod>2021-02-03T23:04:09+01:00</lastmod>
     
   </sitemap>
   

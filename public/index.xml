@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 15 Jan 2021 00:19:14 +0200</lastBuildDate><atom:link href="https://blog.crstian.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Usar Drone CI/CD con Traefik en NixOS</title>
-      <link>https://blog.crstian.me/post/2021-01-15-drone-ci/</link>
+      <link>https://blog.crstian.me/post/2021-01-15-drone-ci-copy/</link>
       <pubDate>Fri, 15 Jan 2021 00:19:14 +0200</pubDate>
       
-      <guid>https://blog.crstian.me/post/2021-01-15-drone-ci/</guid>
+      <guid>https://blog.crstian.me/post/2021-01-15-drone-ci-copy/</guid>
       <description>En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
 En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
 Para crear nuestro RPC secret lo haremos de la siguiente forma:
@@ -38,7 +38,7 @@ I also have a website for my server services you can check it out here</descript
       <guid>https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/</guid>
       <description>Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi Linksys 1900ACS.
-En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT</description>
+En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT, por ejemplo en mi caso un Linksys 3200</description>
     </item>
     
     <item>
