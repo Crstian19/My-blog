@@ -1,5 +1,5 @@
 baseURL = "https://blog.crstian.me"
-# title = "Crstian's blog"
+ title = "Crstian's blog"
 googleAnalytics = "UA-138916983-1"
 theme = "github-style"
 copyright = "Crstian.me © 2019.  <a href=\"https://gohugo.io/\">HUGO</a>"

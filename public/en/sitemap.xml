@@ -18,20 +18,6 @@
   </url>
   
   <url>
-    <loc>https://blog.crstian.me/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://blog.crstian.me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.crstian.me/en/"
-                />
-  </url>
-  
-  <url>
     <loc>https://blog.crstian.me/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,6 +28,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.crstian.me/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.crstian.me/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blog.crstian.me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.crstian.me/en/"
                 />
   </url>
   
