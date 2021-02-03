@@ -6,10 +6,9 @@ tags: [Pepephone,OpenWRT,Linksys]
 
 Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 
-Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi [Linksys 1900ACS](https://www.linksys.com/es/p/P-WRT1900ACS/).
+Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi [Linksys 1900ACS](https://amzn.to/3jdl1FN).
 
-En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con [OPENWRT](https://openwrt.org/), por ejemplo en mi caso un [Linksys 3200](https://amzn.to/2YEkSSi)
-
+En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con [OPENWRT](https://openwrt.org/).
 Otra cosa que tenemos que saber es que pepephone alquila a las demás compañías el acceso a las instalaciones de fibra por lo que tenemos que saber que compañía cede en nuestro edificio/casa en mi caso es movistar.
 
 Además de tener un router que soporte ese protocolo necesitamos estar fuera de CG-NAT y eso se lo tenemos que solicitar a la compañía a día de hoy Pepephone te proporciona una IP Pública de forma gratuita, lo único que tienes que hacer es solicitársela.
