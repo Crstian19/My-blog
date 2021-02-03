@@ -10,8 +10,16 @@ weight = 0
 languageName = "Spanish"
 
 [languages.en]
-weight = 10
+weight = 1
 languageName = "English"
+[[languages.en.menu.main]]
+url    = "/en"
+name   = "Home"
+weight = 1
+[[languages.en.post]]
+url    = "/en/post"
+name   = "Posts"
+weight = 1
 
 [params]
   author = "Cristian Gutierrez"
