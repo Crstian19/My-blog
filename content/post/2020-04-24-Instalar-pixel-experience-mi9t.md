@@ -2,7 +2,8 @@
 title: Instalar Pixel Experience ROM en Xiaomi Mi 9T / Redmi K20
 date: 2020-04-24T00:19:14+02:00
 tags: [Android,ROM]
-
+aliases:
+    - /posts/2020-04-24-instalar-pixel-experience-mi9t/
 ---
 
 Como instalar la ROM Pixel Experience en el Xiaomi Mi9T desde Linux.

@@ -2,7 +2,8 @@
 Title: Logitech G502 Linux
 date: 2019-07-28T00:19:14+02:00
 tags: [Logitech G502,Linux]
-
+aliases:
+    - /posts/2019-07-28-logitech-g502-linux/
 ---
 Como configurar y usar Logitech G502 en Arch Linux - How to configure and use Logitech G502 on Arch Linux
 
