@@ -12,7 +12,7 @@ services:
       - traefik.http.routers.bloglord.tls.certresolver=default
       - "traefik.http.middlewares.bloglord.errors.status=400-499"
       - "traefik.http.middlewares.bloglord.errors.service=serviceError"
-      - "traefik.http.middlewares.bloglord.errors.query=/404.html"
+      - "traefik.http.middlewares.bloglord.errors.query=/{status}.html""
 
 networks:
   default:
