@@ -10,7 +10,7 @@ services:
       - traefik.http.routers.bloglord.entryPoints=web-secure
       - traefik.http.routers.bloglord.rule=Host(`blog.crstian.me`)
       - traefik.http.routers.bloglord.tls.certresolver=default
-      - "traefik.http.middlewares.bloglord.errors.status=400-499"
+      - "traefik.http.middlewares.bloglord.errors.status=404"
       - "traefik.http.middlewares.bloglord.errors.service=serviceError"
       - "traefik.http.middlewares.bloglord.errors.query=404.html""
 
