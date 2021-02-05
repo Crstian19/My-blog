@@ -2,6 +2,8 @@
 title: Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone
 date: 2020-05-03T00:19:14+02:00
 tags: [Pepephone,OpenWRT,Linksys]
+aliases:
+    - /posts/2020-05-03-cambiar-router-pepephone/
 ---
 
 Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
