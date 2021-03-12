@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blog.crstian.me/en/tags/cd/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/tags/cd/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/tags/ci/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/tags/ci/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/tags/drone/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/tags/drone/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/tags/nixos/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/tags/nixos/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/post/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/tags/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -105,9 +92,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/tags/traefik/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
     <xhtml:link
@@ -120,14 +105,10 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/tags/traefik/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/post/2021-01-15-drone-ci/</loc>
     <lastmod>2021-02-03T02:42:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/readme/</loc>
     <lastmod>2021-02-03T01:49:08+01:00</lastmod>
     <xhtml:link
@@ -140,9 +121,7 @@
                 hreflang="en"
                 href="https://blog.crstian.me/en/readme/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -155,5 +134,4 @@
                 href="https://blog.crstian.me/en/categories/"
                 />
   </url>
-  
 </urlset>

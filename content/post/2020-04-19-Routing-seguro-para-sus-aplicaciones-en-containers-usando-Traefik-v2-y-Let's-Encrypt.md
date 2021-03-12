@@ -7,7 +7,7 @@ aliases:
 ---
 Configurar traefik v2 para routing seguro como proxy reverso con HTTPS
 
-![Traefik v2](https://containo.us/content/images/2019/11/image-108.png)
+![Traefik v2](https://doc.traefik.io/traefik/v2.0/assets/img/traefik-architecture.png)
 
 ## Introducción
 

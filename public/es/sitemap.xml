@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blog.crstian.me/tags/cd/</loc>
     <lastmod>2021-02-03T02:42:24+01:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="es"
                 href="https://blog.crstian.me/tags/cd/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/ci/</loc>
     <lastmod>2021-02-03T02:42:24+01:00</lastmod>
     <xhtml:link
@@ -30,11 +27,9 @@
                 hreflang="es"
                 href="https://blog.crstian.me/tags/ci/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/</loc>
-    <lastmod>2021-02-05T13:11:18+01:00</lastmod>
+    <lastmod>2021-03-12T11:54:38+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,9 +40,7 @@
                 hreflang="es"
                 href="https://blog.crstian.me/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/drone/</loc>
     <lastmod>2021-02-03T02:42:24+01:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="es"
                 href="https://blog.crstian.me/tags/drone/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/nixos/</loc>
     <lastmod>2021-02-03T02:42:24+01:00</lastmod>
     <xhtml:link
@@ -75,11 +66,9 @@
                 hreflang="es"
                 href="https://blog.crstian.me/tags/nixos/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/</loc>
-    <lastmod>2021-02-05T13:11:18+01:00</lastmod>
+    <lastmod>2021-03-12T11:54:38+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -90,11 +79,9 @@
                 hreflang="es"
                 href="https://blog.crstian.me/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/</loc>
-    <lastmod>2021-02-05T13:11:18+01:00</lastmod>
+    <lastmod>2021-03-12T11:54:38+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -105,11 +92,9 @@
                 hreflang="es"
                 href="https://blog.crstian.me/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/traefik/</loc>
-    <lastmod>2021-02-05T13:08:11+01:00</lastmod>
+    <lastmod>2021-03-12T11:54:38+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -120,64 +105,40 @@
                 hreflang="es"
                 href="https://blog.crstian.me/tags/traefik/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/2021-01-15-drone-ci-copy/</loc>
     <lastmod>2021-02-03T02:42:24+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/about/</loc>
     <lastmod>2021-01-14T23:35:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/</loc>
     <lastmod>2021-02-05T13:03:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/linksys/</loc>
     <lastmod>2021-02-05T13:03:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/openwrt/</loc>
     <lastmod>2021-02-05T13:03:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/pepephone/</loc>
     <lastmod>2021-02-05T13:03:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/android/</loc>
     <lastmod>2021-02-05T13:07:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/2020-04-24-instalar-pixel-experience-mi9t/</loc>
     <lastmod>2021-02-05T13:07:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/rom/</loc>
     <lastmod>2021-02-05T13:07:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/reverse-proxy/</loc>
-    <lastmod>2021-02-05T13:08:11+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-12T11:54:38+01:00</lastmod>
+  </url><url>
     <loc>https://blog.crstian.me/post/2020-04-19-routing-seguro-para-sus-aplicaciones-en-containers-usando-traefik-v2-y-lets-encrypt/</loc>
-    <lastmod>2021-02-05T13:08:11+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-12T11:54:38+01:00</lastmod>
+  </url><url>
     <loc>https://blog.crstian.me/readme/</loc>
     <lastmod>2021-01-17T20:33:08+01:00</lastmod>
     <xhtml:link
@@ -190,59 +151,37 @@
                 hreflang="es"
                 href="https://blog.crstian.me/readme/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/linux/</loc>
     <lastmod>2021-02-05T13:11:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/logitech-g502/</loc>
     <lastmod>2021-02-05T13:11:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/2019-07-28-logitech-g502-linux/</loc>
     <lastmod>2021-02-05T13:11:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/ethereum/</loc>
     <lastmod>2021-02-05T13:09:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/2019-07-19-minar-eth-nanopool/</loc>
     <lastmod>2021-02-05T13:09:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/mining/</loc>
     <lastmod>2021-02-05T13:09:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/nanopool/</loc>
     <lastmod>2021-02-05T13:09:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/git/</loc>
     <lastmod>2021-01-15T00:03:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/tags/github/</loc>
     <lastmod>2021-01-15T00:03:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/post/2019-07-17-tutorial-git/</loc>
     <lastmod>2021-01-15T00:03:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.crstian.me/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -255,5 +194,4 @@
                 href="https://blog.crstian.me/categories/"
                 />
   </url>
-  
 </urlset>
