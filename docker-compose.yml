@@ -13,6 +13,7 @@ services:
       - "traefik.http.middlewares.bloglord.errors.status=404"
       - "traefik.http.middlewares.bloglord.errors.service=serviceError"
       - "traefik.http.middlewares.bloglord.errors.query=/{status}.html"
+      - com.centurylinklabs.watchtower.enable=false
 
 networks:
   default:
