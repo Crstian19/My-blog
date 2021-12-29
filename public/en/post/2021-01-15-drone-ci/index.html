@@ -16,9 +16,9 @@
 
     
     <meta name="description"
-  content="En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
-En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
-Para crear nuestro RPC secret lo haremos de la siguiente forma:
+  content="In this post we are going to see how to configure our own CI/CD environment with Drone, integrated with Traefik as reverse proxy and NixOS as operating system using github repositories.
+First we need to create an OAuth application in github and our RPC secret can be seen in this post or also in the drone docs.
+To create our RPC secret we will do the following:
  $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6" />
 <meta name="keywords"
   content='blog, google analytics, crstian, traefik, pixel, experience, español' />
@@ -29,9 +29,9 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Usar Drone CI/CD con Traefik en NixOS - Crstian&#39;s blog" />
 <meta name="twitter:description"
-  content="En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
-En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
-Para crear nuestro RPC secret lo haremos de la siguiente forma:
+  content="In this post we are going to see how to configure our own CI/CD environment with Drone, integrated with Traefik as reverse proxy and NixOS as operating system using github repositories.
+First we need to create an OAuth application in github and our RPC secret can be seen in this post or also in the drone docs.
+To create our RPC secret we will do the following:
  $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6" />
 <meta name="twitter:site" content="https://blog.crstian.me" />
 <meta name="twitter:creator" content="" />
@@ -42,9 +42,9 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Usar Drone CI/CD con Traefik en NixOS - Crstian&#39;s blog">
 <meta property="og:description"
-  content="En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
-En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
-Para crear nuestro RPC secret lo haremos de la siguiente forma:
+  content="In this post we are going to see how to configure our own CI/CD environment with Drone, integrated with Traefik as reverse proxy and NixOS as operating system using github repositories.
+First we need to create an OAuth application in github and our RPC secret can be seen in this post or also in the drone docs.
+To create our RPC secret we will do the following:
  $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6" />
 <meta property="og:url" content="https://blog.crstian.me/en/post/2021-01-15-drone-ci/" />
 <meta property="og:site_name" content="Usar Drone CI/CD con Traefik en NixOS" />
@@ -152,9 +152,9 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Wed, 03 Feb 2021 02:42:38 &#43;0100"
+                  Modified <relative-time datetime="Wed, 29 Dec 2021 20:45:26 &#43;0100"
                     class="no-wrap">
-                    Wed, 03 Feb 2021 02:42:38 &#43;0100</relative-time>
+                    Wed, 29 Dec 2021 20:45:26 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -172,7 +172,7 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    614 Words
+                    535 Words
                     <span class="file-info-divider"></span>
                                 Reading time 3 min
                     
@@ -233,17 +233,17 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><p>En este post vamos a ver como configurar nuestro propio entorno de CI/CD con <a href="https://www.drone.io/">Drone</a>, integrado con <a href="https://traefik.io/">Traefik</a> como reverse proxy y en <a href="https://nixos.org/">NixOS</a> como sistema operativo usando repositorios de github.</p>
+                <article class="markdown-body entry-content container-lg"><p>In this post we are going to see how to configure our own CI/CD environment with <a href="https://www.drone.io/">Drone</a>, integrated with <a href="https://traefik.io/">Traefik</a> as reverse proxy and <a href="https://nixos.org/">NixOS</a> as operating system using github repositories.</p>
 <p><img src="https://raw.githubusercontent.com/Crstian19/My-personal-blog/Main/public/images/NixOS.png" alt=""></p>
 <p><img src="https://raw.githubusercontent.com/Crstian19/My-personal-blog/Main/public/images/Drone.jpg" alt=""></p>
-<p>En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este <a href="https://rubynor.com/blog/2020/06/setting-up-drone-ci-for-rails-apps/">post</a> o también en los <a href="https://docs.drone.io/server/provider/github/">docs de drone</a>.</p>
-<p>Para crear nuestro RPC secret lo haremos de la siguiente forma:</p>
+<p>First we need to create an OAuth application in github and our RPC secret can be seen in this <a href="https://rubynor.com/blog/2020/06/setting-up-drone-ci-for-rails-apps/">post</a> or also in the <a href="https://docs.drone.io/server/provider/github/">drone docs</a>.</p>
+<p>To create our RPC secret we will do the following:</p>
 <blockquote>
 <p>$ openssl rand -hex 16
 bea26a2221fd8090ea38720fc445eca6</p>
 </blockquote>
-<p>Una vez tenemos nuestro client ID y nuestro client secret procedemos a crear nuestro docker-compose.yml para levantar el container de drone.</p>
-<pre><code>version: '3.7'
+<p>Once we have our client ID and our client secret we proceed to create our docker-compose.yml to deploy our drone container.</p>
+<pre tabindex="0"><code>version: '3.7'
 
 services:
   drone-server:
@@ -274,7 +274,7 @@ services:
 <p>$ curl -L <a href="https://github.com/drone-runners/drone-runner-exec/releases/latest/download/drone_runner_exec_linux_amd64.tar.gz">https://github.com/drone-runners/drone-runner-exec/releases/latest/download/drone_runner_exec_linux_amd64.tar.gz</a> | tar zx</p>
 </blockquote>
 <p>Una vez bajado lo tenemos que mover a /root/bin/ para posteriormente en el configuration.nix añadir lo siguiente:</p>
-<pre><code>environment.etc.drone-runner-exec = {
+<pre tabindex="0"><code>environment.etc.drone-runner-exec = {
   target = &quot;drone-runner-exec/config&quot;;
   text = ''
   DRONE_RPC_PROTO=https
@@ -306,7 +306,7 @@ systemd.services.drone-runner-exec = {
 <p>Para realizar la configuración nuestro repositorio tiene que tener 3 archivos esenciales en la raiz del repositorio:</p>
 <p><a href="https://github.com/Crstian19/My-personal-blog/blob/Main/.drone.yml"><strong>.drone.yml</strong></a></p>
 <p>En este archivo configuramos básicamente las acciones a realizar por drone en nuestro caso simplemente realiza el build de docker y luego levanta el container.</p>
-<pre><code>kind: pipeline
+<pre tabindex="0"><code>kind: pipeline
 type: exec
 name: default
 
@@ -325,11 +325,11 @@ steps:
     - docker-compose up -d --build
 </code></pre><p><a href="https://github.com/Crstian19/My-personal-blog/blob/Main/Dockerfile"><strong>Dockerfile</strong></a></p>
 <p>Poco que comentar de este archivo, simplemente copia el contenido de public en la carpeta html del container de nginx.</p>
-<pre><code>FROM nginx:alpine
+<pre tabindex="0"><code>FROM nginx:alpine
 COPY public/ /usr/share/nginx/html
 </code></pre><p><a href="https://github.com/Crstian19/My-personal-blog/blob/Main/docker-compose.yml"><strong>docker-compose.yml</strong></a></p>
 <p>El compose del container donde aportamos los labels de traefik.</p>
-<pre><code>version: '3.7'
+<pre tabindex="0"><code>version: '3.7'
 
 services:
   bloglord:

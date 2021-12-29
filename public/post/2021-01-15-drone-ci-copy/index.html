@@ -152,9 +152,9 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Wed, 03 Feb 2021 02:42:24 &#43;0100"
+                  Modified <relative-time datetime="Tue, 28 Dec 2021 22:59:20 &#43;0100"
                     class="no-wrap">
-                    Wed, 03 Feb 2021 02:42:24 &#43;0100</relative-time>
+                    Tue, 28 Dec 2021 22:59:20 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -172,7 +172,7 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    614 Words
+                    536 Words
                     <span class="file-info-divider"></span>
                                 Reading time 3 min
                     
@@ -243,7 +243,7 @@ Para crear nuestro RPC secret lo haremos de la siguiente forma:
 bea26a2221fd8090ea38720fc445eca6</p>
 </blockquote>
 <p>Una vez tenemos nuestro client ID y nuestro client secret procedemos a crear nuestro docker-compose.yml para levantar el container de drone.</p>
-<pre><code>version: '3.7'
+<pre tabindex="0"><code>version: '3.7'
 
 services:
   drone-server:
@@ -274,7 +274,7 @@ services:
 <p>$ curl -L <a href="https://github.com/drone-runners/drone-runner-exec/releases/latest/download/drone_runner_exec_linux_amd64.tar.gz">https://github.com/drone-runners/drone-runner-exec/releases/latest/download/drone_runner_exec_linux_amd64.tar.gz</a> | tar zx</p>
 </blockquote>
 <p>Una vez bajado lo tenemos que mover a /root/bin/ para posteriormente en el configuration.nix añadir lo siguiente:</p>
-<pre><code>environment.etc.drone-runner-exec = {
+<pre tabindex="0"><code>environment.etc.drone-runner-exec = {
   target = &quot;drone-runner-exec/config&quot;;
   text = ''
   DRONE_RPC_PROTO=https
@@ -306,7 +306,7 @@ systemd.services.drone-runner-exec = {
 <p>Para realizar la configuración nuestro repositorio tiene que tener 3 archivos esenciales en la raiz del repositorio:</p>
 <p><a href="https://github.com/Crstian19/My-personal-blog/blob/Main/.drone.yml"><strong>.drone.yml</strong></a></p>
 <p>En este archivo configuramos básicamente las acciones a realizar por drone en nuestro caso simplemente realiza el build de docker y luego levanta el container.</p>
-<pre><code>kind: pipeline
+<pre tabindex="0"><code>kind: pipeline
 type: exec
 name: default
 
@@ -325,11 +325,11 @@ steps:
     - docker-compose up -d --build
 </code></pre><p><a href="https://github.com/Crstian19/My-personal-blog/blob/Main/Dockerfile"><strong>Dockerfile</strong></a></p>
 <p>Poco que comentar de este archivo, simplemente copia el contenido de public en la carpeta html del container de nginx.</p>
-<pre><code>FROM nginx:alpine
+<pre tabindex="0"><code>FROM nginx:alpine
 COPY public/ /usr/share/nginx/html
 </code></pre><p><a href="https://github.com/Crstian19/My-personal-blog/blob/Main/docker-compose.yml"><strong>docker-compose.yml</strong></a></p>
 <p>El compose del container donde aportamos los labels de traefik.</p>
-<pre><code>version: '3.7'
+<pre tabindex="0"><code>version: '3.7'
 
 services:
   bloglord:

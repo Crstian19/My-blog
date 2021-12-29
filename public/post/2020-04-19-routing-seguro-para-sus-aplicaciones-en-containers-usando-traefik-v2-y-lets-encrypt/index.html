@@ -146,9 +146,9 @@ Introducción Una configuración robusta de proxy inverso es crítica para cualq
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Fri, 12 Mar 2021 11:54:38 &#43;0100"
+                  Modified <relative-time datetime="Tue, 28 Dec 2021 22:59:20 &#43;0100"
                     class="no-wrap">
-                    Fri, 12 Mar 2021 11:54:38 &#43;0100</relative-time>
+                    Tue, 28 Dec 2021 22:59:20 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -166,7 +166,7 @@ Introducción Una configuración robusta de proxy inverso es crítica para cualq
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    900 Words
+                    632 Words
                     <span class="file-info-divider"></span>
                                 Reading time 3 min
                     
@@ -217,7 +217,7 @@ Introducción Una configuración robusta de proxy inverso es crítica para cualq
 <p>Un proxy inverso lo podemos configurar con encriptación SSL para poder generar certificados automaticamente para cada ruta con <a href="https://letsencrypt.org/es/">Let&rsquo;s Encrypt</a>.</p>
 <h2 id="configurar-traefik-v2">Configurar Traefik v2</h2>
 <p>En nuestro caso vamos a levantarlo con un <a href="https://docs.docker.com/compose/">docker-compose.yml</a></p>
-<pre><code>version: '3.7'
+<pre tabindex="0"><code>version: '3.7'
 
 services:
   traefik:
@@ -227,7 +227,7 @@ services:
       - ./config/:/etc/traefik/
       - /var/run/docker.sock:/var/run/docker.sock
 </code></pre><p>Ahora vamos a configurar Traefik con su archivo de configuración traefik.toml.</p>
-<pre><code>api:
+<pre tabindex="0"><code>api:
   dashboard: true
 
 entryPoints:
@@ -258,7 +258,7 @@ certificatesResolvers:
 <h2 id="configuración-de-los-containers">Configuración de los containers</h2>
 <p>El último paso para exponer nuestro container usando Traefik es añadir algunas etiquetas Docker que permitirán a Traefik encontrarlo.</p>
 <p>Estas son las etiquetas necesarias:</p>
-<pre><code>labels:
+<pre tabindex="0"><code>labels:
       - traefik.enable=true
       - traefik.http.routers.yourservicename.entryPoints=web-secure
       - traefik.http.routers.yourservicename.rule=Host(`subdomain.your.domain`)
@@ -280,7 +280,7 @@ certificatesResolvers:
 </li>
 </ul>
 <p>Un ejemplo de un servicio que tengo corriendo en mi servidor con su docker-compose.yml</p>
-<pre><code>version: '3'
+<pre tabindex="0"><code>version: '3'
 services:
   caddy:
     image: abiosoft/caddy
@@ -298,7 +298,7 @@ services:
 </code></pre><h2 id="traefik-dashboard">Traefik Dashboard</h2>
 <p>Por último vamos a configurar dentro del propio traefik para que podamos acceder a su dashboard mediante un subdominio.</p>
 <p>Dentro del archivo config.yml tenemos que tener lo siguiente:</p>
-<pre><code>traefik:
+<pre tabindex="0"><code>traefik:
       rule: Host(`traefik.crstian.me`)
       entryPoints:
         - &quot;web-secure&quot;

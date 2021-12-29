@@ -149,9 +149,9 @@ Además de esto debemos tener nuestro MI9T actualizado a la última versión de 
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Fri, 05 Feb 2021 13:07:42 &#43;0100"
+                  Modified <relative-time datetime="Tue, 28 Dec 2021 22:59:20 &#43;0100"
                     class="no-wrap">
-                    Fri, 05 Feb 2021 13:07:42 &#43;0100</relative-time>
+                    Tue, 28 Dec 2021 22:59:20 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -169,7 +169,7 @@ Además de esto debemos tener nuestro MI9T actualizado a la última versión de 
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    491 Words
+                    396 Words
                     <span class="file-info-divider"></span>
                                 Reading time 2 min
                     
@@ -219,18 +219,18 @@ Además de esto debemos tener nuestro MI9T actualizado a la última versión de 
 <p>Ya que estamos podemos flashear <a href="https://github.com/topjohnwu/Magisk/releases">Magisk</a> para tener root.</p>
 <h1 id="go-to-flash">Go to flash!</h1>
 <p>Ahora lo que tenemos que hacer es reiniciar el terminal en modo fastboot (Vol - + Power button) y en nuestra terminal estando en el path donde tenemos TWRP ejecutar el siguiente comando:</p>
-<pre><code>fastboot flash recovery Downloads/twrp-3.3.1.0-davinci.img
+<pre tabindex="0"><code>fastboot flash recovery Downloads/twrp-3.3.1.0-davinci.img
 </code></pre><p><img src="https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/PixelExp/Format%20Data.jpg" alt=""></p>
 <p>Hacemos un format data desde Wipe &gt; Format data y despues reboot recovery otra vez.</p>
 <p><img src="https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/PixelExp/Format%20Data.jpg" alt=""></p>
 <p>Una vez que volvamos a entrar en TWRP tenemos que activar adb mediante advanced &gt; ADB Sideload.</p>
 <p><img src="https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/PixelExp/Sideload.jpg" alt=""> <img src="https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/PixelExp/Sideloadwork.jpgCristian500!" alt=""></p>
 <p>Primero vamos a flashear el vendor que nos dejan el enlace en la propia web de Pixel Experience:</p>
-<pre><code>adb sideload Downloads/fw--vendor_davinci_miui_Global...zip
+<pre tabindex="0"><code>adb sideload Downloads/fw--vendor_davinci_miui_Global...zip
 </code></pre><p>Con ADB Sideload activado desde nuestra terminal ejecutamos el siguiente comando para flashear Pixel Experience:</p>
-<pre><code>adb sideload Downloads/PixelExperience_plus......zip
+<pre tabindex="0"><code>adb sideload Downloads/PixelExperience_plus......zip
 </code></pre><p>Y por último tenemos que flashear Magisk:</p>
-<pre><code>adb sideload Downloads/magisk-v20.4.zip
+<pre tabindex="0"><code>adb sideload Downloads/magisk-v20.4.zip
 </code></pre><p><img src="https://raw.githubusercontent.com/topjohnwu/Magisk/master/docs/images/logo.png" alt="Magisk Manager"></p>
 <p>Y ya hacemos reboot system y al arrancar deberíamos tener nuestra ROM flasheada y funcional.</p>
 <p><img src="https://pa1.narvii.com/6716/90d02da274abd2414b80bc4c27303d511e88cb32_hq.gif" alt="Pikachu"></p>

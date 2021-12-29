@@ -13,9 +13,9 @@
       <pubDate>Fri, 15 Jan 2021 00:19:14 +0200</pubDate>
       
       <guid>https://blog.crstian.me/en/post/2021-01-15-drone-ci/</guid>
-      <description>En este post vamos a ver como configurar nuestro propio entorno de CI/CD con Drone, integrado con Traefik como reverse proxy y en NixOS como sistema operativo usando repositorios de github.
-En primer lugar necesitamos crar una OAuth application en github y nuestro RPC secret podemos verlo en este post o también en los docs de drone.
-Para crear nuestro RPC secret lo haremos de la siguiente forma:
+      <description>In this post we are going to see how to configure our own CI/CD environment with Drone, integrated with Traefik as reverse proxy and NixOS as operating system using github repositories.
+First we need to create an OAuth application in github and our RPC secret can be seen in this post or also in the drone docs.
+To create our RPC secret we will do the following:
  $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6</description>
     </item>
     
