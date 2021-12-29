@@ -8,7 +8,7 @@
     <copyright>Crstian.me © 2019.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 15 Jan 2021 00:19:14 +0200</lastBuildDate><atom:link href="https://blog.crstian.me/en/tags/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Usar Drone CI/CD con Traefik en NixOS</title>
+      <title>Using Drone CI/CD with Traefik on NixOS</title>
       <link>https://blog.crstian.me/en/post/2021-01-15-drone-ci/</link>
       <pubDate>Fri, 15 Jan 2021 00:19:14 +0200</pubDate>
       
