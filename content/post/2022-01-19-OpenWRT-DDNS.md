@@ -16,7 +16,7 @@ Creamos un token nuevo con esta configuración:
     Zone, Zone: Read
     Zone, DNS: Edit
 
-![]()
+![](https://raw.githubusercontent.com/crstian19/My-personal-blog/Main/public/images/Cloudflare-Token.png)
 
 ## Configurar OpenWRT
 
@@ -42,7 +42,7 @@ Editamos la IPv4:
 - En Lookup Hostname colocamos nuestro subdominio o dominio por ejemplo en mi caso murcia.crstian.me, en Domain lo mismo pero en este formato murcia@crstian.me
 - En username **Bearer** y en password nuestro token de cloudflare.
 
-![]()
+![](https://raw.githubusercontent.com/crstian19/My-personal-blog/Main/public/images/Ddns-config.png)
 
 Una vez hecho esto le damos a Save and Apply.
 
@@ -50,4 +50,4 @@ Una vez hecho esto le damos a Save and Apply.
 
 Para ver que esta funcionando podemos verlo en Services -> Dynamic DNS y vemos como nos coge nuestra IP y si vamos al DNS de cloudflare vemos que lo ha cambiado.
 
-![]()
+![](https://raw.githubusercontent.com/crstian19/My-personal-blog/Main/public/images/Ddns-Done.png)
