@@ -1,5 +1,5 @@
 ---
-title: "Configurar DDns en OpenWrt Cloudflare"
+title: "Configurar DDNS en OpenWrt Cloudflare"
 date: 2022-01-10T00:19:14+02:00
 draft: false
 tags: [OpenWRT,DDns,Cloudflare]
