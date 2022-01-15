@@ -5,15 +5,16 @@ tags: [Pepephone,OpenWRT,Linksys,Router]
 
 ---
 
+![OpenWRT](https://upload.wikimedia.org/wikipedia/commons/8/84/OpenWrt_Logo.svg)
 Como cambiar router Sercomm FG824CD Pepephone por router neutro con OpenWRT
 
-Bueno, he decidido redactar este post ya que tengo un [post antiguo]() donde explico como cambiar el router anterior que daba Pepephone por un router neutro.
+Bueno, he decidido redactar este post ya que tengo un [post antiguo](https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/) donde explico como cambiar el router anterior que daba Pepephone por un router neutro.
 
 En Junio de 2021 me mudé de casa y mi router antiguo [Linksys 1900ACS](https://amzn.to/3jdl1FN) lo dejé en casa de mi padres configurado como expliqué en el otro post. 
 
 Al mudarme contraté una nueva línea de internet con Pepephone y en lugar de ponerme un router con una ONT como la vez anterior, me colocaron un router al que le entraba la fibra directamente por lo que necesitaba transformar esa fibra con una ONT; tras mucho buscar vi que en Wallapop por ~10€ se vendían muchas de estas ONTs, eso sí para Pepephone hay dos ONTs de Nokia muy parecidas pero una si que funciona y la otra no el modelo bueno para Pepephone es **Nokia-G-010-P** el modelo ~~I-010G-U~~ no sirve para Pepephone.
 
-![ONT Nokia-G-010-P]()
+![ONT Nokia-G-010-P](https://raw.githubusercontent.com/crstian19/My-blog/Main/public/images/ONTNOKIA.png)
 
 Para poder realizar este cambio, un requisito indispensable que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con [OPENWRT](https://openwrt.org/).
 Otra cosa que tenemos que saber es que Pepephone alquila a las demás compañías el acceso a las instalaciones de fibra por lo que tenemos que saber que compañía cede en nuestro edificio/casa en mi caso es movistar.
@@ -32,15 +33,17 @@ Nos vamos a Settings y abrimos las web developers tools en Firefox (Ctrl + Shift
 usermode = getUserData('usermode', data);
 ```
 
-![]()
+![](https://raw.githubusercontent.com/crstian19/My-blog/Main/public/images/mainfunctions.webp)
 
 Recargamos con F5, la carga se queda pausada en la línea del breakpoint. Ahora desplegaremos el panel Scope > Local > data y cambiaremos los siguientes valor “usermode” a “admin”. Luego hacemos click en el botón superior de play para continuar con la carga (en Chrome).
 
-![]()
+![](https://raw.githubusercontent.com/crstian19/My-blog/Main/public/images/01-sercomm_fg824cd_inspeccionar_mainFuntions_vars.png)
 
 Ahora nos deberían aparecer nuevos menús en settings, vamos al de GPON, aparece la PLOAM Password pero está oculta, para poder sacar los caracteres hacemos click derecho e inspeccionar elemento encima de la casillade la password, doble click en password y eliminamos "password", ahora ya podemos ver la PLOAM Password en formato hexadecimal, la copiamos porque la vamos a necesitar más adelante y es **MUY IMPORTANTE**
 
-![]()
+![PLOAM Password](https://raw.githubusercontent.com/crstian19/My-blog/Main/public/images/ploam.webp)
+
+![](https://raw.githubusercontent.com/crstian19/My-blog/Main/public/images/plam2.webp)
 
 
 ## Configurar ONT
@@ -56,7 +59,7 @@ En mi caso es enp2s0 pero en el vuestro podeis usar la interfaz de red que tenga
 
 Una vez tengamos esa IP accedemos a la ONT http://192.168.100.1
 
-![]()
+![ONT Admin](https://raw.githubusercontent.com/crstian19/My-blog/Main/public/images/ONTadmin.webp)
 
 Entramos con admin/1234 y añadimos nuestra PLOAM que hemos sacado anteriormente con 0x delante, por ejemplo si nuestra PLOAM obtenida anteriormente ha sido t6478927 debemos añadir 0xt6478927.
 
@@ -93,10 +96,6 @@ También debemos poner la MAC del router que nos deja la compañía en Override 
 Ahora damos save y luego save and apply y ya debería de asignarnos IP en wan como en la siguiente imagen:
 
 ![IP asignada](https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/OPENWRTPEPEPHONE/IPasignada.jpg)
-
-Y ya como curiosidad pues he realizado un speedtest con 200mb contratados y aquí el resultado 
-
-![Speedtest](https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/OPENWRTPEPEPHONE/image_2020-05-03_17-15-28.png)
 
 Espero que te haya servido.
 
