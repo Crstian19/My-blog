@@ -2,6 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script type="application/javascript" src='{{ "js/theme-mode.js" | absURL }}'></script>
+        <!-- Plausible-->
+    <script defer data-domain="blog.crstian.me" src="https://plausible.crstian.me/js/plausible.js"></script>
     <link rel="stylesheet" href='{{ "css/frameworks.min.css" | absURL }}' />
     <link rel="stylesheet" href='{{ "css/github.min.css" | absURL }}' />
     <link rel="stylesheet" href='{{ "css/github-style.css" | absURL }}' />
@@ -11,9 +13,6 @@
     <title>{{ if .IsHome }}{{ else }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
     <link rel="icon" type="image/x-icon" href='{{ "images/favicon.ico" | absURL }}'>
     <meta name="theme-color" content="#1e2327">
-    <!-- Plausible-->
-    <script defer data-domain="blog.crstian.me" src="https://plausible.crstian.me/js/plausible.js"></script>
-
 
     <!-- Extended head section-->
     {{ partial "extended_head.html" . }}
