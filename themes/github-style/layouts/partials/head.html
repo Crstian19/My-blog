@@ -11,6 +11,9 @@
     <title>{{ if .IsHome }}{{ else }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
     <link rel="icon" type="image/x-icon" href='{{ "images/favicon.ico" | absURL }}'>
     <meta name="theme-color" content="#1e2327">
+    <!-- Plausible-->
+    <script defer data-domain="blog.crstian.me" src="https://plausible.crstian.me/js/plausible.js"></script>
+
 
     <!-- Extended head section-->
     {{ partial "extended_head.html" . }}
