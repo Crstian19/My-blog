@@ -6,6 +6,9 @@ aliases:
     - /posts/2020-05-03-cambiar-router-pepephone/
 ---
 
+# WARNING 
+## Si el router que te ha puesto Pepephone le entra la fibra directamente, visita este [post](https://blog.crstian.me/post/2022-01-15-cambiar-router-pepephone-sercomm-fg824cd/)
+
 Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 
 Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi [Linksys 1900ACS](https://amzn.to/3jdl1FN).
