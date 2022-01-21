@@ -19,5 +19,15 @@ To create our RPC secret we will do the following:
  $ openssl rand -hex 16 bea26a2221fd8090ea38720fc445eca6</description>
     </item>
     
+    <item>
+      <title>Secure routing for your containerized applications using Traefik v2 with Let&#39;s Encrypt</title>
+      <link>https://blog.crstian.me/en/post/2020-04-19-secure-routing-for-your-containerized-applications-using-traefik-v2-with-lets-encrypt/</link>
+      <pubDate>Sun, 19 Apr 2020 00:19:14 +0200</pubDate>
+      
+      <guid>https://blog.crstian.me/en/post/2020-04-19-secure-routing-for-your-containerized-applications-using-traefik-v2-with-lets-encrypt/</guid>
+      <description>Configuring traefik v2 for secure routing as reverse proxy with HTTPS
+Introduction A robust reverse proxy configuration is critical for any self-hosted setup that has elements exposed across the Internet. While reverse proxy services are often used for load balancing and security reasons, most home server owners use them to route requests directed to different domains or subdomains to different hosts or internal services. In my case you can see all my services at https://server.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script type="application/javascript" src='https://blog.crstian.me/js/theme-mode.js'></script>
+        
+    <script defer data-domain="blog.crstian.me" src="https://plausible.crstian.me/js/plausible.js"></script>
     <link rel="stylesheet" href='https://blog.crstian.me/css/frameworks.min.css' />
     <link rel="stylesheet" href='https://blog.crstian.me/css/github.min.css' />
     <link rel="stylesheet" href='https://blog.crstian.me/css/github-style.css' />
@@ -16,9 +18,9 @@
 
     
     <meta name="description"
-  content="Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
+  content="WARNING Si el router que te ha puesto Pepephone le entra la fibra directamente, visita este post Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi Linksys 1900ACS.
-En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT." />
+En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802." />
 <meta name="keywords"
   content='blog, google analytics, crstian, traefik, pixel, experience, español' />
 <meta name="robots" content="noodp" />
@@ -28,9 +30,9 @@ En primer lugar para poder realizar un requisito indispensable, que hay que tene
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone - Crstian&#39;s blog" />
 <meta name="twitter:description"
-  content="Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
+  content="WARNING Si el router que te ha puesto Pepephone le entra la fibra directamente, visita este post Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi Linksys 1900ACS.
-En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT." />
+En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802." />
 <meta name="twitter:site" content="https://blog.crstian.me" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image"
@@ -40,9 +42,9 @@ En primer lugar para poder realizar un requisito indispensable, que hay que tene
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone - Crstian&#39;s blog">
 <meta property="og:description"
-  content="Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
+  content="WARNING Si el router que te ha puesto Pepephone le entra la fibra directamente, visita este post Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT
 Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi Linksys 1900ACS.
-En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con OPENWRT." />
+En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802." />
 <meta property="og:url" content="https://blog.crstian.me/post/2020-05-03-cambiar-router-pepephone/" />
 <meta property="og:site_name" content="Cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT Pepephone" />
 <meta property="og:image"
@@ -149,9 +151,9 @@ En primer lugar para poder realizar un requisito indispensable, que hay que tene
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Tue, 28 Dec 2021 22:59:20 &#43;0100"
+                  Modified <relative-time datetime="Fri, 21 Jan 2022 10:50:53 &#43;0100"
                     class="no-wrap">
-                    Tue, 28 Dec 2021 22:59:20 &#43;0100</relative-time>
+                    Fri, 21 Jan 2022 10:50:53 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -169,9 +171,9 @@ En primer lugar para poder realizar un requisito indispensable, que hay que tene
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    420 Words
+                    437 Words
                     <span class="file-info-divider"></span>
-                                Reading time 2 min
+                                Reading time 3 min
                     
 
                   </div>
@@ -212,7 +214,9 @@ En primer lugar para poder realizar un requisito indispensable, que hay que tene
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><p>Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT</p>
+                <article class="markdown-body entry-content container-lg"><h1 id="warning">WARNING</h1>
+<h2 id="si-el-router-que-te-ha-puesto-pepephone-le-entra-la-fibra-directamente-visita-este-posthttpsblogcrstianmepost2022-01-15-cambiar-router-pepephone-sercomm-fg824cd">Si el router que te ha puesto Pepephone le entra la fibra directamente, visita este <a href="https://blog.crstian.me/post/2022-01-15-cambiar-router-pepephone-sercomm-fg824cd/">post</a></h2>
+<p>Como cambiar router Sagemcom 5366S Pepephone por router neutro con OpenWRT</p>
 <p>Bueno, he decidido redactar este post ya que quería cambiar el router que me cedió la compañía por mi <a href="https://amzn.to/3jdl1FN">Linksys 1900ACS</a>.</p>
 <p>En primer lugar para poder realizar un requisito indispensable, que hay que tener muy en cuenta antes de adquirir un router es que soporte el protocolo IEEE 802.1Q. Y en este post voy a explicar el proceso de hacerlo en un router con <a href="https://openwrt.org/">OPENWRT</a>.
 Otra cosa que tenemos que saber es que pepephone alquila a las demás compañías el acceso a las instalaciones de fibra por lo que tenemos que saber que compañía cede en nuestro edificio/casa en mi caso es movistar.</p>
@@ -239,7 +243,9 @@ Otra cosa que tenemos que saber es que pepephone alquila a las demás compañía
 <p><img src="https://raw.githubusercontent.com/Crstian19/crstian19.github.io/master/_posts/OPENWRTPEPEPHONE/image_2020-05-03_17-15-28.png" alt="Speedtest"></p>
 <p>Espero que te haya servido.</p>
 </article>
-              </div>
+                <a href="https://www.buymeacoffee.com/crstian"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=crstian&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00"></a>              </div>
+              
+
             </div>
           </div>
         </div>
