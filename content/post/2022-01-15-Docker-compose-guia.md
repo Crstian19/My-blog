@@ -29,8 +29,8 @@ Otra gran característica de Compose es su soporte para ejecutar pruebas unitari
 
 Compose utiliza los nombres de los proyectos para aislar los entornos entre sí, lo que aporta las siguientes ventajas:
 
-    Puede ejecutar varias copias del mismo entorno en una sola máquina
-    Evita que diferentes proyectos y servicios interfieran entre sí
+  -  Puede ejecutar varias copias del mismo entorno en una sola máquina
+  -  Evita que diferentes proyectos y servicios interfieran entre sí
 
 ## Casos de uso comunes
 
