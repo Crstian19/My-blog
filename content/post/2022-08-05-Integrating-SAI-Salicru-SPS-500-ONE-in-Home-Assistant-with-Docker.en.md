@@ -5,7 +5,7 @@ tags: [SAI,Home Assistant,Salicru,HASS,SPS 500 ONE]
 ---
 
 
-Como integrar SAI Salicru SPS 500 ONE en Home Assistant con Docker.
+How to integrate the Salicru SPS 500 ONE UPS with Home Assistant using Docker.
 
 
 
