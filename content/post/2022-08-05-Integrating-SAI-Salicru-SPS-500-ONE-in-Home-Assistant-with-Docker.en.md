@@ -118,8 +118,7 @@ services:
 
 ```
 
-## Importante
-
+## Important
 
 In my case, the UPS driver is "blazer_usb" but not all UPS devices use the same driver. To find out which driver you would need if you are not using an SPS 500, you can check [here](https://networkupstools.org/stable-hcl.html) by entering your model which will tell you the required driver.
 
