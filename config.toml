@@ -12,14 +12,18 @@ languageName = "Spanish"
 [languages.en]
 weight = 1
 languageName = "English"
+
+
 [[languages.en.menu.main]]
 url    = "/en"
 name   = "Home"
 weight = 1
-[[languages.en.post]]
+
+[[languages.en.menu.main]]
 url    = "/en/post"
 name   = "Posts"
-weight = 1
+weight = 2
+
 
 
 [params]
