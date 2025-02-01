@@ -15,7 +15,7 @@ Como integrar SAI Salicru SPS 500 ONE en Home Assistant con Docker.
 
 Bueno, debido a que prácticamente todos mis servicios los tengo selfhosted en mi servidor, me he decidido por comprarme un SAI (Sistema de Alimentación Ininterrumpida) para cuando se pueda ir la luz por cualquier motivo el server no se apague de golpe y pueda estropearse algún componente, especialmente un HDD.
 
-Ya que solo lo quería para el servidor y poco más me decidí por el Salicru SPS 500 ONE, me es más que suficiente para el servidor y alguna cosa más que pueda llegar a conectarle en un futuro.
+Ya que solo lo quería para el servidor y poco más me decidí por el [Salicru SPS 500 ONE](http://www.amazon.es/dp/B08241KKD3/ref=nosim?tag=crstian-21), me es más que suficiente para el servidor y alguna cosa más que pueda llegar a conectarle en un futuro.
 
 Una vez que lo tenía conectado me puse a ver como integrarlo con Home Assistant, anteriormente había visto a gente que tenía integrados SAIs en sus HASS, así que me puse a investigar.
 
